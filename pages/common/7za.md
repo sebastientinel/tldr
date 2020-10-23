@@ -6,15 +6,15 @@
 
 - Archive a file or directory:
 
-`7za a {{archived.7z}} {{path/to/file_or_directory}}`
+`7za a {{archive.7z}} {{path/to/file|path/to/directory}}`
 
 - Extract an existing 7z file with original directory structure:
 
-`7za x {{archived}}`
+`7za x {{archive.7z}}`
 
-- Archive using a specific archive type:
+- Archive a file or directory using a specific archive type:
 
-`7za a -t{{zip|gzip|bzip2|tar}} {{archived}} {{path/to/file_or_directory}}`
+`7za a -t{{zip|gzip|bzip2|tar}} {{archive.7z}} {{path/to/file|path/to/directory}}`
 
 - List available archive types:
 
@@ -22,4 +22,4 @@
 
 - List the contents of an archive file:
 
-`7za l {{archived}}`
+`7za l {{archive.7z}}`
