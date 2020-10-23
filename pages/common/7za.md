@@ -12,7 +12,7 @@
 
 `7za x {{archive.7z}}`
 
-- Archive a file or directory using a specific archive type:
+- Archive a file or a directory using a specific archive type:
 
 `7za a -t{{zip|gzip|bzip2|tar}} {{archive.7z}} {{path/to/file|path/to/directory}}`
 
